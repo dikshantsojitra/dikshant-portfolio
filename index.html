@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikshant | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hello, I am Dikshant</h1>
+        <p>I am learning Frontend Development.</p>
+        <button id="theme-toggle" type="button">Switch Theme</button>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="card">
+            <img src="images/face.jpg" alt="Dikshant's photo" class="profile-image">
+            <h2>About Me</h2>
+            <p>I am a student who loves learning web development.</p>
+            <h2>My Goal</h2>
+            <p>I want to become a professional Frontend Developer.</p>
+        </section>
+
+        <section id="skills" class="card">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <h2>My Learning Goals</h2>
+            <ol>
+                <li>Complete my portfolio</li>
+                <li>Learn JavaScript</li>
+                <li>Publish my website online</li>
+            </ol>
+        </section>
+
+        <section id="projects" class="card">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal website made using HTML and CSS.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Pomodoro Timer</h3>
+                    <p>A timer project for improving productivity.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Online Store</h3>
+                    <p>An e-commerce website project.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="card">
+            <h2>My Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Higher Secondary (12th)</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>College</td>
+                        <td>Currently Studying</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section id="extra-info" class="card">
+            <h2>Extra Information</h2>
+            <form>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="100">
+
+                <label for="birthday">Date of Birth:</label>
+                <input type="date" id="birthday" name="birthday">
+
+                <label for="website">Portfolio Website:</label>
+                <input type="url" id="website" name="website" placeholder="https://example.com">
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="preferences" class="card">
+            <h2>Choose Your Learning Goal</h2>
+            <label for="goal">My Goal:</label>
+            <select id="goal" name="goal">
+                <option value="">Select your goal</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="fullstack">Full Stack Developer</option>
+            </select>
+
+            <h2>Learning Preferences</h2>
+            <p>Choose your level:</p>
+            <div class="choice">
+                <label><input type="radio" name="level" value="beginner"> Beginner</label>
+                <label><input type="radio" name="level" value="intermediate"> Intermediate</label>
+            </div>
+
+            <p>Choose the technologies you know:</p>
+            <div class="choice">
+                <label><input type="checkbox" name="skill" value="html"> HTML</label>
+                <label><input type="checkbox" name="skill" value="css"> CSS</label>
+                <label><input type="checkbox" name="skill" value="javascript"> JavaScript</label>
+            </div>
+        </section>
+
+        <section id="social-links" class="card">
+            <h2>My Links</h2>
+            <a href="https://github.com/dikshantsojitra" target="_blank" rel="noopener noreferrer">Visit GitHub</a>
+            <br><br>
+            <a href="https://www.linkedin.com/in/dikshant-sojitra-31648842b/" target="_blank" rel="noopener noreferrer">Visit LinkedIn</a>
+        </section>
+
+        <section class="card">
+            <h2>CSS Position Practice</h2>
+            <div class="position-demo">Learning CSS Position</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dikshant. All rights reserved.</p>
+    </footer>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
